@@ -17,15 +17,15 @@ const CountDown = () => {
   }
     return (
        <div className='container'>
-        <Card style={{ width: '18rem', height:'22rem'}}>
+        <Card style={{ width: '18rem', height:'15rem',background:'#a78bfa'}}>
       <Card.Body>
       <div className='display'>
         <Card.Title>CountDown</Card.Title>
         {Count}
       </div>
         <div className="button">
-        <Button onClick={handleadd} variant="primary">+</Button>
-        <Button onClick={handldelete} variant="primary">-</Button>
+        <Button onClick={handleadd}>+</Button>
+        <Button onClick={handldelete}>-</Button>
         </div>
       </Card.Body>
     </Card>
