@@ -36,13 +36,3 @@
     transform: rotate(360deg);
   }
 }
-
-.Container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.projectCard {
-  margin-top:200px;
-  margin-bottom: 200px;
-}

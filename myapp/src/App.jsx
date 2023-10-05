@@ -4,11 +4,11 @@ import CountDown from './Components/CountDown';
 
 function App() {
   return (
-    <div className="Container">
-    <div className="projectCard">
-      <CountDown/>
-    </div>
-    </div>
+    <>
+      <div className="projectCard">
+        <CountDown />
+      </div>
+    </>
   );
 }
 
